@@ -43,13 +43,13 @@ variable "instances" {
   # by deafult value to be put in the variable
   default = {
     "control-node-ubuntu" = {
-      ami           = "ami-01a00762f46d584a" # Ubuntu Server 24.04 LTS
+      ami           = "ami-01a00762f46d584a1" # Ubuntu Server 24.04 LTS
       user          = "ubuntu"
       os_family     = "ubuntu"
       instance_type = "t3.micro"
     }
     "worker-ubuntu" = {
-      ami           = "ami-01a00762f46d584a" # Ubuntu Server 24.04 LTS 
+      ami           = "ami-01a00762f46d584a1" # Ubuntu Server 24.04 LTS 
       user          = "ubuntu"
       os_family     = "ubuntu"
       instance_type = "t3.micro"
